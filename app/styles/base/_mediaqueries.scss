@@ -1,0 +1,21 @@
+$small: "only screen and (min-width: 480px)";
+$medium: "only screen and (min-width: 768px)";
+$large: "only screen and (min-width: 1140px)";
+
+@mixin tablet {
+  @media #{$small} {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media #{$medium} {
+    @content;
+  }
+}
+
+@mixin xldesktop {
+  @media #{$large} {
+    @content;
+  }
+}

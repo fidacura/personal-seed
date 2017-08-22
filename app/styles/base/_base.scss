@@ -1,0 +1,37 @@
+// -------------------------------------------------------
+// Base
+// -------------------------------------------------------
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+html {
+  font-size: 20px
+}
+body {
+  font: 24px/24px Helvetica, Helvetica Neue, Arial;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: sans-serif;
+  font-size: .7rem;
+  line-height: 1.4
+}
