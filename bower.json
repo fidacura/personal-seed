@@ -1,8 +1,8 @@
 {
   "name": "personal-seed2",
   "private": true,
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "p5.js": "p5js#^0.5.13"
   }
 }
