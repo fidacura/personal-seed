@@ -1,8 +1,21 @@
 {
-  "name": "personal-seed2",
+  "name": "personal-seed",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "modernizr": "~2.8.1"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  },
   "devDependencies": {
-    "p5.js": "p5js#^0.5.13"
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
   }
 }
